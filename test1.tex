@@ -1,0 +1,24 @@
+%《LaTeX中参考文献BibTeX》
+%%%%%%%%导言区：形式%%%%%%%%
+\documentclass{ctexart} %book, report, letter
+
+\usepackage{ctex} %中文处理宏包
+
+%导言区使用这玩意儿导出参考文献
+%\bibliographystyle{plain} %plain unsrt alpha abbrv
+
+\usepackage{hologo}
+\usepackage[super]{gbt7714}
+
+
+%%%%%%%%%正文区：内容%%%%%%%%
+\begin{document}
+
+这是参考文献的一个引用：文献\cite{belloni2007doa}
+
+这是参考文献的另一个应用：文献\cite{_doa_2019}
+
+\bibliography{shoudong,cnki}
+
+
+\end{document}
